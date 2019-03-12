@@ -31,7 +31,7 @@ data() {
 },
 methods: {
   appendBook(bookTitle, bookAuthor) {
-    this.books.push({ title: booktitle, author: bookAuthor})
+    this.books.push({ title: bookTitle, author: bookAuthor})
   }
 }
 }
